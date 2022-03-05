@@ -13,14 +13,14 @@ elForm.addEventListener("submit", function(evt){
   }
 
   todoArray.push(todo);
-  elFormList.innerHTML = " ";
+  elFormList.innerHTML = "";
 
   for (var item of todoArray){
     var newItem = document.createElement("li");
     newItem.textContent = item.id + 1 + ". " + item.title;
     elFormList.appendChild(newItem);
 
-    elFormInput.value = " ";
+    elFormInput.value = "";
   }
 
 
