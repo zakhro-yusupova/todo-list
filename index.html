@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>To Do List</title>
+  <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -19,11 +20,17 @@
 
       <button class="form__button">Add a task</button>
 
-      <ul class="form__list"> </ul>
+      <ol class="form__list"> </ol>
+
+      <div class="btns">
+        <button class=" btn all-btn">All <strong class="all">0</strong></button>
+        <button class=" btn complete-btn">Complete <strong class="complete">0</strong></button>
+        <button class=" btn uncomplete-btn">Uncomplete <strong class="uncomplete">0</strong></button>
+      </div>
     </form>
   </div>
 
 
-<script src="./js/main.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 </html>

@@ -50,17 +50,38 @@ body{
   width: 600px;
   display: flex;
   flex-direction: column;
-  list-style-type: none;
   margin: 50px auto 0;
 
 }
 
 li{
   display: inline;
+  position: relative;
   margin-bottom: 10px;
   background:#EEEFF4;
   border: 1px solid transparent;
   border-radius: 8px;
-  padding: 10px 20px;
+  padding: 10px 15px;
+}
 
+
+.checkbox{
+border: 1px solid black;
+position: absolute;
+left: 10px;
+}
+
+.btn-delete{
+  position: absolute;
+  right: 10px;
+  color: red;
+border: transparent;
+}
+
+
+.btn{
+ width: 120px;
+ border: 1px solid transparent;
+ border-radius: 12px;
+ padding: 10px 0;
 }
